@@ -12,7 +12,7 @@ body{
 
 /*Header syling.*/
 .header{
-    background-image: url("./space-all-universe-cosmos-preview.jpg");
+    background-image: url("space-all-universe-cosmos-preview.jpg");
     background-size: cover;
     border-bottom: 10px solid var(--pink);
     overflow: auto;
