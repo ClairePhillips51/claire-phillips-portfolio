@@ -11,8 +11,8 @@ body{
 }
 
 .header{
-    background-image: url("blue-css-background-gradient-9.jpg");
-    background-color: var(--grayblue);
+    background-image: url("space-all-universe-cosmos-preview.jpg");
+    background-size: cover;
     border-bottom: 10px solid var(--pink);
     overflow: auto;
     padding: 1%;
