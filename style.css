@@ -10,6 +10,7 @@ body{
     background-color: var(--lightblue);
 }
 
+/*Header syling.*/
 .header{
     background-image: url("space-all-universe-cosmos-preview.jpg");
     background-size: cover;
@@ -18,6 +19,7 @@ body{
     padding: 1%;
 }
 
+/* All the syling for the navigation bar in the header.*/
 .nav-bar{
     float: right;
     padding-right: 1%;
@@ -37,12 +39,14 @@ body{
     color: var(--pink);
 }
 
+/*Picture of my face.*/
 .picture{
     border-radius: 50px;
     max-width: 300px;
     max-height: 200px;
 }
 
+/*Color and styling for the Main h1 and the section links.*/
 .header div{
     display: inline-block;
 }
@@ -52,10 +56,10 @@ body{
     font-size: 2em;
 }
 
+/* Includes a flex box and all 3 sections of the portfolio.*/
 #main{
     max-width: 1500px;
     margin: 0 auto;
-
 }
 .section{
     margin: 2% 3% 2% 3%;
@@ -67,6 +71,7 @@ body{
     justify-content: center;
 }
 
+/*The headers: About Me, My Work, and Contact Me.*/
 .heading{
     flex: 1 0 25%;
     color: var(--grayblue);
@@ -77,6 +82,7 @@ body{
     flex: 3 0 75%;
 }
 
+/* Added a color change and hove effect to two span elements in the about me paragraph.*/
 @keyframes stretch{
     0%{
         transform: scale (.5);
@@ -92,7 +98,7 @@ body{
 }
 
 .act{
-    animation: stretch 5s ease-out 0s alternate infinite none running;
+    animation: stretch 8s ease-out 0s alternate infinite none running;
 }
 
 .move:hover{
@@ -107,16 +113,18 @@ p{
      color: var(--grayblue);
  }
  
+ /* The main box contanin the 5 other boxes*/ 
  #main-container{
      height: 100%;
      width: 100%;
      border: 2px solid var(--grayblue);
  }
 
+ /* The styling and hover effect on all the pictures and links in the My Work Section.*/
  .main-box{
      height: 40%;
      width: 100%;
-     border: 2px solid;
+     border: 2px solid var(--grayblue);
  }
  .main-box a{
      position: relative;
@@ -141,10 +149,11 @@ p{
     opacity: 0.5;
 }
 
+/* The 4 smaller boxes under the main one,*/
  #table{
      height: 60%;
      width: 100%;
-     border: 2px solid blue;
+     border: 2px solid var(--grayblue);
      display: flex;
      flex-flow: row wrap;
  }
@@ -155,6 +164,8 @@ p{
     flex-direction: row;
     flex: 1 0 50%;
 }
+
+/* Social media and email links in the Contact me section.*/
 .social-links{
     margin-right: 30%;
 }
@@ -168,3 +179,11 @@ p{
     color: var(--grayblue);
     font-size: 1.2em;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 1020px) {/*large desktop*/}
+
+@media screen and (max-width: 780px) {/*tablet*/}
+
+@media screen and (max-width: 480px) {/*mobile/phone*/}
