@@ -1,4 +1,4 @@
-!DOCTYPE
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,97 +14,91 @@
 <body>
 
     <header class="header">
-        <h1 class="name">Claire Phillips</h1>
-        <img class= "picture" src="Claire.jpg" alt="Claire Phillips Profile Picture">
+        <img class="picture" src="claire2.jpg" alt="Claire Phillips Profile Picture"/>
+        <div class="name-occupation">
+            <h1>Claire Phillips</h1>
+            <h2>Full Stack Web Developer</h2>
+        </div>
         <nav class="nav-bar">
-            <a href="#About Me"> About Me /</a>
+            <ul>
+            <li>
+            <a href="#About Me"> About Me </a>
+            </li>
+            <li>
             <a href="#My Work"> My Work</a>
+            </li>
+            <li>
             <a href="#Contact Me"> Contact Me</a>
+            </li>
+            </ul>
         </nav>
     </header>
 
-    <main class="main">
-        <section class="S1">
-            <div id="About Me">
-                <h2 class=heading-2> About Me</h2>
-                <h4 class=Hello!> Hello!</h4>
-                <p>
-                    I'm Claire Phillips. I am a full stack developer with a background in public relations and social media marketing.
-                    I have been working the last 7 years for location televison stations and am looking to take on the world of web developement.
-                </p>
-                <p>
-                    I have experience in both front-end and back-end development. I recently completed a coding bootcamp
-                    and am looking for a new adventure (a.k.a. a new job). This protfolio will showcase some of the projects I've completed.
-                    I have experience with HTML5 CSS but Javascript is my code of choice 
-                    to make visually <span class= "act">interesting</span> and <span class="move">interactive</span> websites.
-                </p>
-                <p> 
-                   Looking for more? Check out my <a href="https://github.com/ClairePhillips51"> Github profile</a> 
-                   or my <a href="https://www.linkedin.com/in/claire-cameron-46baa062/"> Linkedin page.</a> You can also interact and get to know me
-                   at the <a href="#Contact Me">social links </a> below. 
-                </p>
+    <main id="main">
+        <section class="section">
+            <div class="content-box" id="About Me">
+                <h2 class=heading> About Me</h2>
+                
+                <div class="content">
+                    <p>
+                        I'm Claire Phillips. I am a full stack developer with a background in public relations and social media marketing.
+                        I have been working the last 7 years for location televison stations and am looking to take on the world of web developement.
+                    </p>
+                    <p>
+                        I have experience in both front-end and back-end development. I recently completed a coding bootcamp
+                        and am looking for a new adventure (a.k.a. a new job). This protfolio will showcase some of the projects I've completed.
+                        I have experience with HTML5 and CSS, but Javascript is my code of choice 
+                        to make visually <span class= "act">interesting</span> and <span class="move">interactive</span> websites.
+                    </p>
+                </div>
             </div>
         </section>
-         <section class="S2">
-             <div id="My Work">
-                 <h2 class="heading-2">My Work</h2>
-                 <p>
-                     Current and ongoing porjects. 
-                 </p>
-                 <div class="projects">
-                     <div class="columns-grid">
-                         <div class="column">
-                            <figure class="project-thumb">
-                                <img src="???" alt="find a pic">
-                                <figcaption>
-                                   A CSS syntax cheatsheet.
-                                   <a href="file:///Users/clairep/msu-det-fsf-pt-01-2021-u-c/msu-det-fsf-pt-01-2021-u-c/02-Advanced-CSS/01-Activities/28-Stu_Mini-Project/Main/index.html"></a> 
-                                </figcaption>
-                            </figure> 
-                         </div>
-                     <div class="cloumn">
-                         <figure class="project-thumb">
-                             <img src="???" alt="find a picture">
-                             <figcaption>
-                                 A mock up of a shopping app.
-                                 <a href="???"></a>
-                             </figcaption>
-                         </figure>
-                     </div>  
-                     <div class="column">
-                         <figure class="project-thumb">
-                             <img src="???" alt="find a picture">
-                            <figcaption>
-                                More to come!
-                                <a href="###"></a>
-                            </figcaption>
-                         </figure>
-                     </div> 
+         <section class="section">
+             <div class="content-box" id="My Work" style="height: 500px;">
+                 <h2 class="heading">My Work</h2>
+
+                 <div class="content" id="main-container">
+                     <div class="main-box">
+                        <a href="https://clairephillips51.github.io/HW1-Code-Refactor/#social-media-marketing">
+                            <img class="main-pic" src="digital-marketing-meeting.jpg" alt="Horiseon Cover Picture"><div>Horiseon</div></a>
+                     </div>
+                     <div id="table">
+                        
+                            <div class="columns main-box" style="background-color: aqua;">
+                                <a href="comingsoon.html">
+                                    <img class="main-pic" src="digital-marketing-meeting.jpg" alt="Coming Soon!"><div>Coming Soon!</div></a>
+                            </div>
+                            <div class="columns" style="background-color: blue;">
+
+                            </div>
+                            <div class="columns" style="background-color: blueviolet;">
+
+                            </div>
+                            <div class="columns" style="background-color: azure;">
+
+                            </div>
+                    </div>
                  </div>
-             </div>
          </section> 
-        <section class="S3">
-            <div id="Contact Me">
-               <h2 class="heading-2">Contact Me</h2> 
-               <p>
-                   Reach out of follow me at
-               </p> 
-               <div class="socail-links">
+        <section class="section">
+            <div class="content-box" id="Contact Me">
+               <h2 class="heading">Contact Me</h2> 
+               <div class="social-links">
                    <ul>
                        <li>
-                           <a href="mailto:claireacam@gmail.com"> Email Me</a>
+                           <a href="mailto:claireacam@gmail.com" target="_blank"> Email Me</a>
                        </li>
                        <li>
-                           <a href=8327418680>Phone Number (832)-741-8680</a>
+                           <a href=8327418680 style="text-decoration: none;">(832)-741-8680</a>
                        </li>
                        <li>
-                           <a href="https://github.com/ClairePhillips51">Github</a>
+                           <a href="https://github.com/ClairePhillips51" targe="_blank">Github</a>
                        </li>
                        <li>
-                           <a href="https://www.linkedin.com/in/claire-cameron-46baa062/">LinkedIn</a>
+                           <a href="https://www.linkedin.com/in/claire-cameron-46baa062/" target="_blank">LinkedIn</a>
                        </li>
                        <li>
-                           <a href="https://www.instagram.com/clairecamerontv/?hl=en">Instagram</a>
+                           <a href="https://www.instagram.com/clairecamerontv/?hl=en" target="_blank">Instagram</a>
                        </li>
 
                    </ul>

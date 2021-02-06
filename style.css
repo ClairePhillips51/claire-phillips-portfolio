@@ -1,0 +1,170 @@
+:root{
+    --grayblue: #2d5153;
+    --lightblue: #D9E4E7;
+    --beige: #99b7b8;
+    --pink: #f7f6f3;
+
+}
+
+body{
+    background-color: var(--lightblue);
+}
+
+.header{
+    background-image: url("blue-css-background-gradient-9.jpg");
+    background-color: var(--grayblue);
+    border-bottom: 10px solid var(--pink);
+    overflow: auto;
+    padding: 1%;
+}
+
+.nav-bar{
+    float: right;
+    padding-right: 1%;
+    margin: 1%;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.nav-bar ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: var(--pink);
+}
+
+.picture{
+    border-radius: 50px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.header div{
+    display: inline-block;
+}
+
+.name-occupation{
+    color: var(--pink);
+    font-size: 2em;
+}
+
+#main{
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+.section{
+    margin: 2% 3% 2% 3%;
+}
+.content-box{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.heading{
+    flex: 1 0 25%;
+    color: var(--grayblue);
+    font-size: 1.75em;
+}
+
+.content{
+    flex: 3 0 75%;
+}
+
+@keyframes stretch{
+    0%{
+        transform: scale (.5);
+        color: var(--pink);
+    }
+    50{
+        Color: var(--grayblue);
+    }
+    100%{
+        transform: scale (2);
+        color: #000000;
+    }
+}
+
+.act{
+    animation: stretch 5s ease-out 0s alternate infinite none running;
+}
+
+.move:hover{
+    background-color: var(--pink);
+}
+
+
+p{
+     font-size: 1em;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 1.5;
+     color: var(--grayblue);
+ }
+ 
+ #main-container{
+     height: 100%;
+     width: 100%;
+     border: 2px solid var(--grayblue);
+ }
+
+ .main-box{
+     height: 40%;
+     width: 100%;
+     border: 2px solid;
+ }
+ .main-box a{
+     position: relative;
+     text-align: center;
+     color: var(--beige);
+     text-decoration: none;
+ }
+
+ .main-box a div{
+     position: absolute;
+     bottom: 8px;
+     left: 16px;
+ }
+
+.main-pic{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.main-pic:hover{
+    opacity: 0.5;
+}
+
+ #table{
+     height: 60%;
+     width: 100%;
+     border: 2px solid blue;
+     display: flex;
+     flex-flow: row wrap;
+ }
+
+.columns{
+    height: 50%;
+    border: 2px solid var(--grayblue);
+    flex-direction: row;
+    flex: 1 0 50%;
+}
+.social-links{
+    margin-right: 30%;
+}
+
+.social-links ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.social-links ul li a{
+    color: var(--grayblue);
+    font-size: 1.2em;
+}
