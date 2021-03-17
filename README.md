@@ -11,34 +11,38 @@ I built a web developer portfolio using semantic html and advanced css styling. 
 
 ### Table of contents:
 
-1. [Process] (#Process)
-2. [Features] (#Features)
-3. [What I Learned] (#WhatILearned)
-4. [Installation] (#installation)
-5. [Resources] (#Resources)
+1. [Process](#process)
+
+2. [Features](#features)
+
+3. [What I Learned](#what-i-learned)
+
+4. [Installation](#installation)
+
+5. [Resources](#resources)
 
 ### Process
-This was a challenging assignment for me. The initial set up of the html code was easy. The one spot I struggled with most was the “my work” section that required multiple `<div >` elements to support the various flex boxes that would make up that section. 
+This was a challenging assignment for me. The initial setup of the html code was easy. The one spot I struggled with most was the “my work” section that required multiple `<div>` elements to support the various flex boxes that would make up that section. 
 
-In the css I knew I needed multiple flexboxes but my problem was how to nest them and how to arrange them. I finally settled on one flex box in `<main>` which I split into two columns. I added a second flexbox which I set up in rows in the `<div>`s that were withing the table element.   
+In the css I knew I needed multiple flexboxes but my problem was how to nest them and how to arrange them. I finally settled on one flex box in `<main>` which I split into two columns. I added a second flexbox which I set up in rows in the `<div>`s that were within the table element.   
 
-![html set up for the flex boxes]()
+![html set up for the flex boxes](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/flexboxcode.png)
 
 Getting the format of the page to work was an ordeal. Brandon helped me set up the two nested flex boxes. 
 From there I added more interactive css styling with minor animations on two spans. 
 
-(Add picture)
+![css for the span animations](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/animationcode.png)
 
 Psudo classes and elements were also used for hover effects on the “my work” section. I also added some text styling to remove the underline from the links at the top of the page and make the text bigger in the headers. 
 
 ### Features
 
-Some major features of my portfolio include the interactive '<span>' elements in the “about me” section. That included some simple animations.
+Some major features of my portfolio include the interactive `<span>` elements in the “about me” section. That included some simple animations.
 The flexbox containing samples of my work were the most involved elements that included links that take you to the deployed application. They also had hover effects that reduced the opacity by half.
 
 There were also additional links in the “contact me” section that lead to social media links and the “email me” link opened up a form to send me an email.
 
-On thing I forgot to add was a footer. It wasn't listed in the requirements, but I think that is good practice and will make a point to add them going forward. 
+One thing I forgot to add was a footer. It wasn't listed in the requirements, but I think that is good practice and will make a point to add them going forward. 
 
 ### What I Learned
 
@@ -46,15 +50,15 @@ I learned more about flexboxes mostly. Nested flexboxes can be used to create co
 
 I also learned how the "viewport" name in the `<meta>` tag was connected to the media queries. Using the dev tools in chrome I looked to see how my website reacted to different views and also checked the website on my phone. There was no horizontal scrolling. 
 
-(Add Picture)
+![Responsive Web proof](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/Devtools-screenshot.png)
 
 I also added the :root elements to the css style sheet and used the link that Brandon G. Merritt posted in slack which was great I choosing a color pallete. I picked color pallete number 492.
 
-(add picture)
+![HEX color pallete I choose](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/492-color-pallete.png)
 
 ### Installation
 
-Deploying my portfolio I used gitpages again. To start I created a public repo and then made 3 files: an index.html, reset.css, and style.css.. I added a second branch called "dev" to this repo to practice making and merging different branches. Once the code worked and looked how I wanted I pushed all my commits to github and merged my branches. From there I followed the same steps as the last porject. In Github go to settings> options> github pages and set th main branch to be the link to the deployed webpage.
+Deploying my portfolio I used gitpages again. To start I created a public repo and then made 3 files: an index.html, reset.css, and style.css.. I added a second branch called "dev" to this repo to practice making and merging different branches. Once the code worked and looked how I wanted I merged my commits from dev into main and pushed  them to github. From there I followed the same steps as the last project. In Github go to settings> options> github pages and set th main branch to be the link to the deployed webpage.
 
 ### Resources
 
