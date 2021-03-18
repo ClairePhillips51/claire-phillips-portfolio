@@ -3,7 +3,8 @@
 
 ## Claire Phillips: CSS Portfolio
 
-Link to portfolio: [Claire Phillips Portfolio] (https://clairephillips51.github.io/hw2-css-portfolio/)
+Link: [Claire Phillips Portfolio](https://clairephillips51.github.io/hw2-css-portfolio/)
+
 
 ### Summary
 
@@ -26,12 +27,12 @@ This was a challenging assignment for me. The initial setup of the html code was
 
 In the css I knew I needed multiple flexboxes but my problem was how to nest them and how to arrange them. I finally settled on one flex box in `<main>` which I split into two columns. I added a second flexbox which I set up in rows in the `<div>`s that were within the table element.   
 
-![html set up for the flex boxes](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/flexboxcode.png)
+![html set up for the flex boxes](pictures/Readme-pics/flexboxcode.png)
 
 Getting the format of the page to work was an ordeal. Brandon helped me set up the two nested flex boxes. 
 From there I added more interactive css styling with minor animations on two spans. 
 
-![css for the span animations](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/animationcode.png)
+![css for the span animations](pictures/Readme-pics/animationcode.png)
 
 Psudo classes and elements were also used for hover effects on the “my work” section. I also added some text styling to remove the underline from the links at the top of the page and make the text bigger in the headers. 
 
@@ -50,11 +51,11 @@ I learned more about flexboxes mostly. Nested flexboxes can be used to create co
 
 I also learned how the "viewport" name in the `<meta>` tag was connected to the media queries. Using the dev tools in chrome I looked to see how my website reacted to different views and also checked the website on my phone. There was no horizontal scrolling. 
 
-![Responsive Web proof](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/Devtools-screenshot.png)
+![Responsive Web proof](pictures/Readme-pics/Devtools-screenshot.png)
 
 I also added the :root elements to the css style sheet and used the link that Brandon G. Merritt posted in slack which was great I choosing a color pallete. I picked color pallete number 492.
 
-![HEX color pallete I choose](https://github.com/ClairePhillips51/hw2-css-portfolio/blob/main/Readme-pics/492-color-pallete.png)
+![HEX color pallete I choose](pictures/Readme-pics/492-color-pallete.png)
 
 ### Installation
 
@@ -63,10 +64,10 @@ Deploying my portfolio I used gitpages again. To start I created a public repo a
 ### Resources
 
 I found these links extremely helpful.
-* [MDN Using Media Queries] (https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-* [Css Media Queries] (https://medium.com/@mchisti/two-css-tricks-thatll-make-your-site-fully-responsive-5f9efba4015e)
-* [Flexbox Guide] (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [HEX color schemes] (https://www.instagram.com/p/CH2fYP5gsTw/)
-* [HTML Responsive Web Design] (https://www.w3schools.com/html/html_responsive.asp)
-* [CSS Background Image W3Schools] (https://www.w3schools.com/css/css_background_image.asp)
+* [MDN Using Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+* [Css Media Queries](https://medium.com/@mchisti/two-css-tricks-thatll-make-your-site-fully-responsive-5f9efba4015e)
+* [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [HEX color schemes](https://www.instagram.com/p/CH2fYP5gsTw/)
+* [HTML Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
+* [CSS Background Image W3Schools](https://www.w3schools.com/css/css_background_image.asp)
 
