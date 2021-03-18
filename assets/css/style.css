@@ -12,7 +12,7 @@ body{
 
 /*Header syling.*/
 .header{
-    background-image: url("space-all-universe-cosmos-preview.jpg");
+    background-image: url("../../pictures/space-all-universe-cosmos-preview.jpg");
     background-size: cover;
     border-bottom: 10px solid var(--pink);
     overflow: auto;
@@ -64,6 +64,11 @@ body{
 .section{
     margin: 2% 3% 2% 3%;
 }
+
+.contact{
+    padding-bottom: 3%;
+}
+
 .content-box{
     display: flex;
     flex-flow: row;
@@ -88,7 +93,7 @@ body{
         transform: scale (.5);
         color: var(--pink);
     }
-    50{
+    50%{
         Color: var(--grayblue);
     }
     100%{
@@ -115,20 +120,25 @@ p{
  
  /* The main box contanin the 5 other boxes*/ 
  #main-container{
-     height: 100%;
-     width: 100%;
-     border: 2px solid var(--grayblue);
+     border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--grayblue);
+    display: flex;
+    flex-flow: row wrap;
  }
 
  /* The styling and hover effect on all the pictures and links in the My Work Section.*/
  .main-box{
-     height: 40%;
-     width: 100%;
+     height: 100%;
+     width: 50%;
      border: 2px solid var(--grayblue);
  }
+
  .main-box a{
      position: relative;
      text-align: center;
+     font-size: 1.5em;
      color: var(--beige);
      text-decoration: none;
  }
@@ -150,9 +160,9 @@ p{
 }
 
 /* The 4 smaller boxes under the main one,*/
- #table{
-     height: 60%;
-     width: 100%;
+#table{
+     height: 100%;
+     width: 50%;
      border: 2px solid var(--grayblue);
      display: flex;
      flex-flow: row wrap;
@@ -178,6 +188,10 @@ p{
 .social-links ul li a{
     color: var(--grayblue);
     font-size: 1.2em;
+}
+
+.fa-mobile-alt {
+    color: var(--grayblue);
 }
 
 
