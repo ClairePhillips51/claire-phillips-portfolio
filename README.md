@@ -61,5 +61,5 @@ Deploying my portfolio I used gitpages again. To start I created a public repo a
 * [HEX color schemes](https://www.instagram.com/p/CH2fYP5gsTw/)
 * [HTML Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
 * [SVG Background I used](https://www.svgbackgrounds.com/#subtle-prism)
-* SVG Fair Use License[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+* SVG Fair Use License  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
