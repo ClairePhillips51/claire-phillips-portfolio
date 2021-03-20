@@ -3,7 +3,7 @@
 
 ## Claire Phillips: CSS Portfolio
 
-Link: [Claire Phillips Portfolio](https://clairephillips51.github.io/hw2-css-portfolio/)
+Link: [Claire Phillips Portfolio](https://clairephillips51.github.io/claire-phillips-portfolio/)
 
 
 ### Summary
@@ -12,15 +12,20 @@ I built a web developer portfolio using semantic html and advanced css styling. 
 
 ### Table of contents:
 
-1. [Process](#process)
+1. [Updates](#updates)
 
-2. [Features](#features)
+2. [Process](#process)
 
-3. [What I Learned](#what-i-learned)
+3. [Features](#features)
 
-4. [Installation](#installation)
+4. [What I Learned](#what-i-learned)
 
-5. [Resources](#resources)
+5. [Installation](#installation)
+
+6. [Resources](#resources)
+
+### Updates
+Many changes were made to my portfolio. I cleaned up the html by having the flexboxes that store my work generated using jQuery. The flexboxes were also updated to look nicer. I flipped them to be vertical instead of horizontal and it looks much nicer, my homework projects were also added. Font awesome was added and used for the social links below. In our group project I liked DinJin's use of having the icons grow and show the name of the application linked so I looked at their code an used the idea on my project. Other updates include adding a link to the pdf of my resume. 
 
 ### Process
 This was a challenging assignment for me. The initial setup of the html code was easy. The one spot I struggled with most was the “my work” section that required multiple `<div>` elements to support the various flex boxes that would make up that section. 

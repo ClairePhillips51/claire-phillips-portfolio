@@ -12,13 +12,27 @@ body{
 
 /*Header syling.*/
 .header{
-    background-image: url("../../pictures/space-all-universe-cosmos-preview.jpg");
-    background-size: cover;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    background-image: url("pictures/Subtle-Prism.svg");
+    background-attachment: fixed;
+    background-size: cover;  
     border-bottom: 10px solid var(--pink);
     overflow: auto;
     padding: 1%;
+    z-index: 99;
 }
 
+h2 a {
+    text-decoration: none;
+    color: var(--pink);
+}
+
+h2 a:hover{
+    color: var(--pink);
+    text-decoration: underline;
+}
 /* All the syling for the navigation bar in the header.*/
 .nav-bar{
     float: right;
@@ -87,69 +101,46 @@ body{
     flex: 3 0 75%;
 }
 
-/* Added a color change and hove effect to two span elements in the about me paragraph.*/
-@keyframes stretch{
-    0%{
-        transform: scale (.5);
-        color: var(--pink);
-    }
-    50%{
-        Color: var(--grayblue);
-    }
-    100%{
-        transform: scale (2);
-        color: #000000;
-    }
-}
-
-.act{
-    animation: stretch 8s ease-out 0s alternate infinite none running;
-}
-
-.move:hover{
-    background-color: var(--pink);
-}
-
-
 p{
-     font-size: 1em;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     line-height: 1.5;
-     color: var(--grayblue);
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    color: var(--grayblue);
  }
  
  /* The main box contanin the 5 other boxes*/ 
  #main-container{
-     border-radius: 10px;
     height: 100%;
     width: 100%;
-    border: 2px solid var(--grayblue);
     display: flex;
     flex-flow: row wrap;
  }
 
  /* The styling and hover effect on all the pictures and links in the My Work Section.*/
  .main-box{
-     height: 100%;
-     width: 50%;
-     border: 2px solid var(--grayblue);
+    border-radius: 10px;
+    height: 100%;
+    width: 45%;
+    border: 2px solid var(--grayblue);
+    margin: 0px 5px 5px 0px;
  }
 
  .main-box a{
-     position: relative;
-     text-align: center;
-     font-size: 1.5em;
-     color: var(--beige);
-     text-decoration: none;
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--pink);
+    text-decoration: none;
  }
 
  .main-box a div{
      position: absolute;
-     bottom: 8px;
+     top: 4px;
      left: 16px;
  }
 
 .main-pic{
+    border-radius: 8px;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -161,18 +152,17 @@ p{
 
 /* The 4 smaller boxes under the main one,*/
 #table{
-     height: 100%;
-     width: 50%;
-     border: 2px solid var(--grayblue);
-     display: flex;
-     flex-flow: row wrap;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
  }
 
 .columns{
-    height: 50%;
+    height: 49.5%;
     border: 2px solid var(--grayblue);
     flex-direction: row;
-    flex: 1 0 50%;
+    flex: 1 0 45%;
 }
 
 /* Social media and email links in the Contact me section.*/
@@ -183,6 +173,7 @@ p{
 .social-links ul li{
     display: inline-block;
     padding: 10px;
+    margin-left: 10px; 
 }
 
 .social-links ul li a{
