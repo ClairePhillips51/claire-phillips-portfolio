@@ -1,7 +1,4 @@
-# HW2-CSS-Portfolio
-
-
-## Claire Phillips: CSS Portfolio
+# Claire Phillips: CSS Portfolio
 
 Link: [Claire Phillips Portfolio](https://clairephillips51.github.io/claire-phillips-portfolio/)
 
