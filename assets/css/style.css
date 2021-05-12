@@ -45,7 +45,7 @@ h2 a:hover{
 }
 
 .nav-bar ul li{
-    display: inline-block;
+    display: block;
     padding: 10px;
 }
 
@@ -53,7 +53,7 @@ h2 a:hover{
 .nav-bar ul li a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
     color: var(--pink);
 }
 
@@ -191,8 +191,8 @@ p{
 
 
 /* Media Queries */
-@media screen and (max-width: 1020px) {/*large desktop*/}
+@media screen and (min-width: 1020px) {/*large desktop*/}
 
-@media screen and (max-width: 780px) {/*tablet*/}
+@media screen and (min-width: 780px) {/*tablet*/}
 
-@media screen and (max-width: 480px) {/*mobile/phone*/}
+@media screen and (min-width: 480px) {/*mobile/phone*/}
