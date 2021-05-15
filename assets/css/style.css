@@ -25,33 +25,27 @@ body{
     padding: 1%;
 }
 
-h2 a {
-    text-decoration: none;
-    color: var(--pink);
+#name-pic-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
 }
 
-h2 a:hover{
-    color: var(--pink);
-    text-decoration: underline;
-}
-/* All the syling for the navigation bar in the header.*/
-.nav-bar{
-    float: right;
-    padding-right: 1%;
-    margin: 1%;
+h2 a {
+    text-decoration: none;
+    color: var(--grayblue);
 }
 
 .nav-bar ul li{
     display: block;
-    padding: 10px;
+    padding-bottom: 2px;
 }
-
 
 .nav-bar ul li a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.7em;
-    color: var(--pink);
+    font-size: 1em;
+    color: var(--grayblue);
 }
 
 /*Picture of my face.*/
@@ -60,13 +54,8 @@ h2 a:hover{
     width: 50%;
 }
 
-/*Color and styling for the Main h1 and the section links.*/
-.header div{
-    display: inline-block;
-}
-
 .name-occupation{
-    color: var(--pink);
+    color: var(--grayblue);
     font-size: 1em;
 }
 
@@ -121,6 +110,7 @@ p{
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
  }
 
  /* The styling and hover effect on all the pictures and links in the My Work Section.*/
@@ -193,8 +183,20 @@ p{
 
 
 /* Media Queries */
+/*tablet*/
+@media screen and (min-width: 760px) {
+    .name-occupation {
+        font-size: 1.5em;
+    }
 
-@media screen and (min-width: 780px) {/*tablet*/}
+    .name-occupation h1 {
+        font-size: 1.5em;
+    }
+
+    .nav-bar ul li a{
+        font-size: 1.5em;
+    }
+}
 
 /*large desktop*/
 @media screen and (min-width: 1020px) {
@@ -209,6 +211,55 @@ p{
         overflow: auto;
         padding: 1%;
         z-index: 99;
+    }
+
+    #name-pic-container {
+        /*display: inline-block;*/
+        justify-content: space-between;
+    }
+
+    .name-occupation {
+        flex-grow: 4;
+        font-size: 1.5em;
+        color: var(--pink);
+    }
+
+    .name-occupation h1 {
+        font-size: 1.5em;
+        color: var(--pink);
+    }
+
+    /*Picture of my face.*/
+    .picture{
+        border-radius: 5%;
+        width: 25%;
+    }
+
+    h2 a {
+        color: var(--pink);
+    }
+
+    h2 a:hover{
+        color: var(--grayblue);
+        text-decoration: underline;
+    }
+
+    .nav-bar{
+        float: right;
+        padding-right: 1%;
+        margin: 0;
+    }
+    
+    .nav-bar ul li{
+        display: block;
+        padding-bottom: 10px;
+    }
+    
+    .nav-bar ul li a{
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.7em;
+        color: var(--pink);
     }
 
     #main{
@@ -231,7 +282,7 @@ p{
         display: flex;
         flex-flow: row;
         width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     /* The main box contanin the 5 other boxes*/ 
@@ -239,13 +290,13 @@ p{
         height: 100%;
         width: 100%;
         display: flex;
-        flex-flow: row wrap;
+        flex-direction: row;
     }
 
     /* The styling and hover effect on all the pictures and links in the My Work Section.*/
     .main-box{
         border-radius: 10px;
-        height: 100%;
+        /*height: 100%;*/
         width: 45%;
         border: 2px solid var(--grayblue);
         margin: 0px 5px 5px 0px;
@@ -253,7 +304,7 @@ p{
 
     /* The 4 smaller boxes under the main one,*/
     #table{
-        height: 100%;
+        height: auto;
         width: 50%;
         display: flex;
         flex-flow: row wrap;
